@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <!-- Ustawienia kodowania i widoku -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Tytuł strony w przeglądarce -->
     <title>HackaLabs</title>
+
+    <!-- Ikona strony (favicon) -->
     <link rel="icon" href="favicon.png" type="image/png">
 
+    <!-- Meta dane SEO -->
     <meta name="description" content="Firma szkoleniowa HackaLabs">
     <meta name="keywords" content="szkolenia, HackaLabs, szkolenie z cyberbezpieczeństwa">
     <meta name="author" content="Bartosz Łabądź">
     <meta name="robots" content="noindex">
+    <!--   
+         index = indeksowanie robotów  
+         noindex = brak indeksowania   
+         follow = przekierowanie na inną stronę i boostowanie jej   
+         nofollow = roboty nie przechodzą na inną stronę   
+         all = index + follow (domyślnie)  
+         none = noindex + nofollow  
+    -->
 
-    <!-- Podłączenie zewnętrznego pliku CSS -->
+    <!-- Podłączenie pliku CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Główny nagłówek strony -->
     <header>
         <h1 class="Pismoreczne">HackaLabs</h1>
         <h3 class="Pismoreczne">Firma Szkoleniowa</h3>
+        
+        <!-- Nawigacja strony -->
         <nav>
             <a href="ofirmie.html" class="nav-btn">O Firmie</a>
             <a href="szkolenia.html" class="nav-btn">Szkolenia</a>
@@ -27,6 +44,7 @@
         </nav>
     </header>
 
+    <!-- Sekcja o projektowaniu stron -->
     <section>
         <h3>Projektowanie stron</h3>
         <article>
@@ -39,14 +57,17 @@
         </article>
     </section>
 
+    <!-- Sekcja o cyberbezpieczeństwie -->
     <section>
         <h3>Cyberbezpieczeństwo</h3>
     </section>
 
+    <!-- Sekcja o programowaniu -->
     <section>
         <h3>Programowanie</h3>
     </section>
 
+    <!-- Główna treść strony -->
     <main class="glowna">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Eaque explicabo incidunt dignissimos iste, consequatur asperiores voluptatem! 
@@ -54,8 +75,10 @@
         architecto vitae quaerat. Explicabo.
     </main>
 
+    <!-- Stopka strony -->
     <footer>
         <aside>
+            <!-- Linki do innych stron -->
             <p><a href="https://asfaltowadroga.zsti.me/">Strona Wojciecha Maciorowskiego</a></p>
             <p><a href="https://gieldasite.zsti.me/">Strona Łukasza Gaidy</a></p>
         </aside>
@@ -63,3 +86,8 @@
     </footer>
 </body>
 </html>
+
+<!-- <hgroup> – grupa nagłówków -->
+<!-- <aside> – treści poboczne np. reklamy, linki -->
+<!-- <a href="adres"> tekst </a> – link do innej strony -->
+<!-- <address> – dane kontaktowe twórcy strony -->
