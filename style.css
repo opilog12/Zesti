@@ -28,7 +28,7 @@ nav {
 nav a.nav-btn {
     display: block;
     color: black;
-    background: linear-gradient(to bottom, #fff, rgb(255, 196, 0));
+    background: linear-gradient(to bottom, red, rgb(255, 196, 0));
     margin: 10px auto;
     text-align: center;
     padding: 10px;
