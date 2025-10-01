@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right top, #fcff45, #f3eead);
+    background: linear-gradient(to bottom, #fcff45, #f3eead);
     color: black;
     padding: 15px;
     text-align: center;
@@ -27,7 +27,7 @@ nav {
 nav a.nav-btn {
     display: block;
     color: black;
-    background: linear-gradient(to bottom, red, rgb(255, 196, 0));
+    background: linear-gradient(to right top, red, rgb(255, 196, 0));
     margin: 10px auto;
     text-align: center;
     padding: 10px;
