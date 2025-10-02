@@ -1,20 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background:#f3eead;
+    background:#1c5529;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
-.glowna {
-    background-color: #fff;
+main{
+    background-color: #87b373;
     padding: 20px;
     margin: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
 
 header {
-    background: linear-gradient(to bottom, #fcff45, #f3eead);
+    background: linear-gradient(to bottom, #055f20, #1c5529);
     color: black;
     padding: 15px;
     text-align: center;
@@ -24,10 +24,10 @@ nav {
     margin-top: 10px;
 }
 
-nav a.nav-btn {
+nav a.przycisk {
     display: block;
     color: black;
-    background: linear-gradient(to right top, red, rgb(255, 196, 0));
+    background: linear-gradient(to right top, #143f1e, rgb(66, 235, 131));
     margin: 10px auto;
     text-align: center;
     padding: 10px;
@@ -37,25 +37,26 @@ nav a.nav-btn {
     text-decoration: none;
     font-weight: bold;
     border-radius: 4px;
-    transition: all 0.3s ease; /* animacja */
+    transition: all 0.5s ease;
 }
 
-nav a.nav-btn:hover {
-    background: orange;
-    transform: scale(1.05);   /* lekko powiększa przycisk */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* cień */
+nav a.przycisk:hover {
+    background: linear-gradient(to right top, #143f1e, rgb(66, 235, 131));
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
 }
 
 section {
     padding: 15px;
-    background-color: #fff;
+    background-color: #87b373;
     margin: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
 
 footer {
-    background: linear-gradient(to top, #000000,#f3eead);
-    color: white;
+    background: linear-gradient(to top, #000000,#1c5529);
+    color: rgb(112, 112, 112);
     text-align: center;
     padding: 10px;
     margin-top: 40px;
